@@ -1,0 +1,557 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Player Controller Test Suite</th></tr>
+<tr><td><a href="#t0">Player Controller Tests</a></td><td class="num">8</td><td class="num attn">7</td><td class="num">0</td><td class="num attn">44</td><td class="num">43,335</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Player Controller Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Player Controller Tests &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">api.PlayerDeleteTest</td><td><a href="#m0">setUp</a></td><td rowspan="1">1754845685100</td><td rowspan="1">85</td></tr><tr class="failedodd"><td rowspan="2">api.PlayerUpdateTest</td><td><a href="#m1">setUp</a></td><td rowspan="2">1754845708706</td><td rowspan="2">96</td></tr><tr class="failedodd"><td><a href="#m2">setUp</a></td></tr><tr><th colspan="4">Player Controller Tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">api.PlayerAdminEditorTest</td><td><a href="#m3">testAdminCanDeleteOtherAdmins</a></td><td rowspan="1">1754845673937</td><td rowspan="1">497</td></tr><tr class="failedeven"><td><a href="#m4">testAdminCanUpdateOtherAdmins</a></td><td rowspan="1">1754845673935</td><td rowspan="1">429</td></tr><tr class="failedodd"><td rowspan="2">api.PlayerControllerTest</td><td><a href="#m5">testCompletePlayerLifecycle</a></td><td rowspan="1">1754845668977</td><td rowspan="1">5796</td></tr><tr class="failedodd"><td><a href="#m6">testMultiUserWorkflow</a></td><td rowspan="1">1754845675418</td><td rowspan="1">10671</td></tr><tr class="failedeven"><td rowspan="2">api.PlayerCreateDuplicateNegativeTest</td><td><a href="#m7">testCreatePlayerWithDuplicateLogin</a></td><td rowspan="1">1754845675598</td><td rowspan="1">106</td></tr><tr class="failedeven"><td><a href="#m8">testCreatePlayerWithDuplicateScreenName</a></td><td rowspan="1">1754845676111</td><td rowspan="1">112</td></tr><tr class="failedodd"><td rowspan="16">api.PlayerCreateTest</td><td><a href="#m9">testCreatePlayerWithInvalidAgeTooOld</a></td><td rowspan="1">1754845676688</td><td rowspan="1">98</td></tr><tr class="failedodd"><td><a href="#m10">testCreatePlayerWithInvalidAgeTooYoung</a></td><td rowspan="1">1754845676814</td><td rowspan="1">89</td></tr><tr class="failedodd"><td><a href="#m11">testCreatePlayerWithInvalidGender</a></td><td rowspan="1">1754845676931</td><td rowspan="1">91</td></tr><tr class="failedodd"><td><a href="#m12">testCreatePlayerWithInvalidPasswordNoLetters</a></td><td rowspan="1">1754845677050</td><td rowspan="1">94</td></tr><tr class="failedodd"><td><a href="#m13">testCreatePlayerWithInvalidPasswordNoNumbers</a></td><td rowspan="1">1754845677171</td><td rowspan="1">89</td></tr><tr class="failedodd"><td><a href="#m14">testCreatePlayerWithInvalidPasswordTooLong</a></td><td rowspan="1">1754845677282</td><td rowspan="1">86</td></tr><tr class="failedodd"><td><a href="#m15">testCreatePlayerWithInvalidPasswordTooShort</a></td><td rowspan="1">1754845677397</td><td rowspan="1">86</td></tr><tr class="failedodd"><td><a href="#m16">testCreatePlayerWithInvalidRole</a></td><td rowspan="1">1754845677509</td><td rowspan="1">82</td></tr><tr class="failedodd"><td><a href="#m17">testCreatePlayerWithMissingAge</a></td><td rowspan="1">1754845677615</td><td rowspan="1">91</td></tr><tr class="failedodd"><td><a href="#m18">testCreatePlayerWithMissingGender</a></td><td rowspan="1">1754845677734</td><td rowspan="1">94</td></tr><tr class="failedodd"><td><a href="#m19">testCreatePlayerWithMissingLogin</a></td><td rowspan="1">1754845677861</td><td rowspan="1">98</td></tr><tr class="failedodd"><td><a href="#m20">testCreatePlayerWithMissingRole</a></td><td rowspan="1">1754845678003</td><td rowspan="1">110</td></tr><tr class="failedodd"><td><a href="#m21">testCreatePlayerWithMissingScreenName</a></td><td rowspan="1">1754845678142</td><td rowspan="1">95</td></tr><tr class="failedodd"><td><a href="#m22">testCreatePlayerWithNonExistentEditor</a></td><td rowspan="1">1754845678267</td><td rowspan="1">92</td></tr><tr class="failedodd"><td><a href="#m23">testCreatePlayerWithValidDataUsingAdmin</a></td><td rowspan="1">1754845678605</td><td rowspan="1">103</td></tr><tr class="failedodd"><td><a href="#m24">testCreatePlayerWithValidDataUsingSupervisor</a></td><td rowspan="1">1754845678829</td><td rowspan="1">87</td></tr><tr class="failedeven"><td rowspan="1">api.PlayerCreateWithAdminEditorNegativeTest</td><td><a href="#m25">testAdminCannotCreateSupervisor</a></td><td rowspan="1">1754845679107</td><td rowspan="1">98</td></tr><tr class="failedodd"><td rowspan="2">api.PlayerCreateWithUserEditorNegativeTest</td><td><a href="#m26">testCreatePlayerWithUserEditor</a></td><td rowspan="1">1754845679529</td><td rowspan="1">93</td></tr><tr class="failedodd"><td><a href="#m27">testUserCannotAccessAdminOperations</a></td><td rowspan="1">1754845679941</td><td rowspan="1">90</td></tr><tr class="failedeven"><td rowspan="7">api.PlayerDeleteTest</td><td><a href="#m28">testAdminCanDeleteOtherUsers</a></td><td rowspan="1">1754845680449</td><td rowspan="1">178</td></tr><tr class="failedeven"><td><a href="#m29">testDeleteAdminByAdmin</a></td><td rowspan="1">1754845681182</td><td rowspan="1">96</td></tr><tr class="failedeven"><td><a href="#m30">testDeleteAdminBySupervisor</a></td><td rowspan="1">1754845681818</td><td rowspan="1">165</td></tr><tr class="failedeven"><td><a href="#m31">testDeleteNonExistentPlayer</a></td><td rowspan="1">1754845682540</td><td rowspan="1">91</td></tr><tr class="failedeven"><td><a href="#m32">testDeletePlayerWithAdmin</a></td><td rowspan="1">1754845683185</td><td rowspan="1">169</td></tr><tr class="failedeven"><td><a href="#m33">testDeletePlayerWithBoundaryIds</a></td><td rowspan="1">1754845683886</td><td rowspan="1">87</td></tr><tr class="failedeven"><td><a href="#m34">testDeletePlayerWithNonExistentEditor</a></td><td rowspan="1">1754845684582</td><td rowspan="1">116</td></tr><tr class="failedodd"><td rowspan="4">api.PlayerGetTest</td><td><a href="#m35">testGetPlayerAfterCreation</a></td><td rowspan="1">1754845686379</td><td rowspan="1">96</td></tr><tr class="failedodd"><td><a href="#m36">testGetPlayerByNonExistentId</a></td><td rowspan="1">1754845686539</td><td rowspan="1">93</td></tr><tr class="failedodd"><td><a href="#m37">testGetPlayerWithBoundaryIds</a></td><td rowspan="1">1754845686621</td><td rowspan="1">10166</td></tr><tr class="failedodd"><td><a href="#m38">testGetPlayerWithNullId</a></td><td rowspan="1">1754845687167</td><td rowspan="1">90</td></tr><tr class="failedeven"><td rowspan="6">api.PlayerUpdateTest</td><td><a href="#m39">testUpdateMultipleFields</a></td><td rowspan="1">1754845687479</td><td rowspan="1">100</td></tr><tr class="failedeven"><td><a href="#m40">testUpdateNonExistentPlayer</a></td><td rowspan="1">1754845687545</td><td rowspan="1">104</td></tr><tr class="failedeven"><td><a href="#m41">testUpdatePlayerAge</a></td><td rowspan="1">1754845688057</td><td rowspan="1">10174</td></tr><tr class="failedeven"><td><a href="#m42">testUpdatePlayerScreenName</a></td><td rowspan="1">1754845698508</td><td rowspan="1">10179</td></tr><tr class="failedeven"><td><a href="#m43">testUpdatePlayerWithInvalidAge</a></td><td rowspan="1">1754845708034</td><td rowspan="1">87</td></tr><tr class="failedeven"><td><a href="#m44">testUpdatePlayerWithInvalidGender</a></td><td rowspan="1">1754845708379</td><td rowspan="1">82</td></tr><tr class="failedodd"><td rowspan="2">api.PlayerUserEditorNegativeTest</td><td><a href="#m45">testUpdatePlayerWithUserEditor</a></td><td rowspan="1">1754845709001</td><td rowspan="1">85</td></tr><tr class="failedodd"><td><a href="#m46">testUserCannotDeleteOtherUsers</a></td><td rowspan="1">1754845709037</td><td rowspan="1">91</td></tr><tr><th colspan="4">Player Controller Tests &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="7">api.PlayerDeleteTest</td><td><a href="#m47">setUp</a></td><td rowspan="3">1754845685257</td><td rowspan="3">0</td></tr><tr class="skippedeven"><td><a href="#m48">setUp</a></td></tr><tr class="skippedeven"><td><a href="#m49">setUp</a></td></tr><tr class="skippedeven"><td><a href="#m50">tearDown</a></td><td rowspan="4">1754845685249</td><td rowspan="4">0</td></tr><tr class="skippedeven"><td><a href="#m51">tearDown</a></td></tr><tr class="skippedeven"><td><a href="#m52">tearDown</a></td></tr><tr class="skippedeven"><td><a href="#m53">tearDown</a></td></tr><tr class="skippedodd"><td rowspan="5">api.PlayerUpdateTest</td><td><a href="#m54">setUp</a></td><td rowspan="1">1754845708763</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m55">tearDown</a></td><td rowspan="4">1754845708771</td><td rowspan="4">0</td></tr><tr class="skippedodd"><td><a href="#m56">tearDown</a></td></tr><tr class="skippedodd"><td><a href="#m57">tearDown</a></td></tr><tr class="skippedodd"><td><a href="#m58">tearDown</a></td></tr><tr><th colspan="4">Player Controller Tests &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="4">api.PlayerDeleteTest</td><td><a href="#m59">testDeletePlayerWithSupervisor</a></td><td rowspan="1">1754845685210</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m60">testDeleteSupervisor</a></td><td rowspan="1">1754845685241</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m61">testDeleteUserByUser</a></td><td rowspan="1">1754845685266</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m62">testUserCannotDeleteAdmin</a></td><td rowspan="1">1754845685289</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="3">api.PlayerUpdateTest</td><td><a href="#m63">testUpdatePlayerWithInvalidPassword</a></td><td rowspan="1">1754845708741</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m64">testUpdatePlayerWithNonExistentEditor</a></td><td rowspan="1">1754845708843</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m65">testUserCanUpdateOwnProfile</a></td><td rowspan="1">1754845708773</td><td rowspan="1">0</td></tr><tr><th colspan="4">Player Controller Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">api.PlayerControllerTest</td><td><a href="#m66">testDataConsistencyWorkflow</a></td><td rowspan="1">1754845674952</td><td rowspan="1">10988</td></tr><tr class="passedodd"><td rowspan="2">api.PlayerCreateTest</td><td><a href="#m67">testCreatePlayerWithAdminRole</a></td><td rowspan="1">1754845676450</td><td rowspan="1">112</td></tr><tr class="passedodd"><td><a href="#m68">testCreatePlayerWithUserRole</a></td><td rowspan="1">1754845678392</td><td rowspan="1">92</td></tr><tr class="passedeven"><td rowspan="1">api.PlayerGetTest</td><td><a href="#m69">testGetAllPlayers</a></td><td rowspan="1">1754845685403</td><td rowspan="1">1600</td></tr><tr class="passedodd"><td rowspan="4">api.PlayerUpdateTest</td><td><a href="#m70">testUpdatePlayerGender</a></td><td rowspan="1">1754845688101</td><td rowspan="1">10164</td></tr><tr class="passedodd"><td><a href="#m71">testUpdatePlayerLogin</a></td><td rowspan="1">1754845697031</td><td rowspan="1">163</td></tr><tr class="passedodd"><td><a href="#m72">testUpdatePlayerPassword</a></td><td rowspan="1">1754845697452</td><td rowspan="1">10165</td></tr><tr class="passedodd"><td><a href="#m73">testUpdatePlayerWithAdminEditor</a></td><td rowspan="1">1754845698574</td><td rowspan="1">10185</td></tr></tbody>
+</table>
+<h2>Player Controller Tests</h2><h3 id="m0">api.PlayerDeleteTest#setUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Expected HTTP status code 200, but was 400 expected [200] but found [400]
+	at api.client.ResponseWrapper.expectingStatusCode(ResponseWrapper.java:49)
+	at api.PlayerDeleteTest.createAndVerifyPlayer(PlayerDeleteTest.java:185)
+	at api.PlayerDeleteTest.setUp(PlayerDeleteTest.java:38)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 21 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">api.PlayerUpdateTest#setUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: User should be created. expected [200] but found [400]
+	at api.PlayerUpdateTest.createAndVerifyPlayer(PlayerUpdateTest.java:258)
+	at api.PlayerUpdateTest.setUp(PlayerUpdateTest.java:37)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 21 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">api.PlayerUpdateTest#setUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: User should be created. expected [200] but found [400]
+	at api.PlayerUpdateTest.createAndVerifyPlayer(PlayerUpdateTest.java:258)
+	at api.PlayerUpdateTest.setUp(PlayerUpdateTest.java:37)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 21 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">api.PlayerAdminEditorTest#testAdminCanDeleteOtherAdmins</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Expected HTTP status code 404, but was 200 expected [404] but found [200]
+	at api.client.ResponseWrapper.expectingStatusCode(ResponseWrapper.java:49)
+	at api.PlayerAdminEditorTest.verifyPlayerDeletion(PlayerAdminEditorTest.java:140)
+	at api.PlayerAdminEditorTest.testAdminCanDeleteOtherAdmins(PlayerAdminEditorTest.java:89)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">api.PlayerAdminEditorTest#testAdminCanUpdateOtherAdmins</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Response body is empty; cannot map to PlayerResponse
+	at api.client.ResponseWrapper.readEntity(ResponseWrapper.java:36)
+	at api.PlayerAdminEditorTest.verifyPlayerFieldUpdate(PlayerAdminEditorTest.java:112)
+	at api.PlayerAdminEditorTest.testAdminCanUpdateOtherAdmins(PlayerAdminEditorTest.java:77)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 11 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">api.PlayerControllerTest#testCompletePlayerLifecycle</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Expected HTTP status code 404, but was 200 expected [404] but found [200]
+	at api.client.ResponseWrapper.expectingStatusCode(ResponseWrapper.java:49)
+	at api.PlayerControllerTest.testCompletePlayerLifecycle(PlayerControllerTest.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">api.PlayerControllerTest#testMultiUserWorkflow</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
+	Users should have different screen names did not expect [null] but found [null]
+	at api.PlayerControllerTest.testMultiUserWorkflow(PlayerControllerTest.java:168)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 13 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">api.PlayerCreateDuplicateNegativeTest#testCreatePlayerWithDuplicateLogin</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Expected HTTP status code 403, but was 200 expected [403] but found [200]
+	at api.client.ResponseWrapper.expectingStatusCode(ResponseWrapper.java:49)
+	at api.PlayerCreateDuplicateNegativeTest.assertCreatePlayerWithValidationError(PlayerCreateDuplicateNegativeTest.java:92)
+	at api.PlayerCreateDuplicateNegativeTest.testCreatePlayerWithDuplicateLogin(PlayerCreateDuplicateNegativeTest.java:61)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">api.PlayerCreateDuplicateNegativeTest#testCreatePlayerWithDuplicateScreenName</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Expected HTTP status code 403, but was 200 expected [403] but found [200]
+	at api.client.ResponseWrapper.expectingStatusCode(ResponseWrapper.java:49)
+	at api.PlayerCreateDuplicateNegativeTest.assertCreatePlayerWithValidationError(PlayerCreateDuplicateNegativeTest.java:92)
+	at api.PlayerCreateDuplicateNegativeTest.testCreatePlayerWithDuplicateScreenName(PlayerCreateDuplicateNegativeTest.java:69)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">api.PlayerCreateTest#testCreatePlayerWithInvalidAgeTooOld</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Response body is empty; cannot map to ErrorBody
+	at api.client.ResponseWrapper.readError(ResponseWrapper.java:56)
+	at api.PlayerCreateTest.assertCreatePlayerWithValidationError(PlayerCreateTest.java:272)
+	at api.PlayerCreateTest.testCreatePlayerWithInvalidAgeTooOld(PlayerCreateTest.java:125)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 11 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">api.PlayerCreateTest#testCreatePlayerWithInvalidAgeTooYoung</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Response body is empty; cannot map to ErrorBody
+	at api.client.ResponseWrapper.readError(ResponseWrapper.java:56)
+	at api.PlayerCreateTest.assertCreatePlayerWithValidationError(PlayerCreateTest.java:272)
+	at api.PlayerCreateTest.testCreatePlayerWithInvalidAgeTooYoung(PlayerCreateTest.java:115)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 11 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">api.PlayerCreateTest#testCreatePlayerWithInvalidGender</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: User should not be created. expected [400] but found [200]
+	at api.PlayerCreateTest.assertCreatePlayerWithValidationError(PlayerCreateTest.java:271)
+	at api.PlayerCreateTest.testCreatePlayerWithInvalidGender(PlayerCreateTest.java:137)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">api.PlayerCreateTest#testCreatePlayerWithInvalidPasswordNoLetters</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: User should not be created. expected [400] but found [200]
+	at api.PlayerCreateTest.assertCreatePlayerWithValidationError(PlayerCreateTest.java:271)
+	at api.PlayerCreateTest.testCreatePlayerWithInvalidPasswordNoLetters(PlayerCreateTest.java:179)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">api.PlayerCreateTest#testCreatePlayerWithInvalidPasswordNoNumbers</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: User should not be created. expected [400] but found [200]
+	at api.PlayerCreateTest.assertCreatePlayerWithValidationError(PlayerCreateTest.java:271)
+	at api.PlayerCreateTest.testCreatePlayerWithInvalidPasswordNoNumbers(PlayerCreateTest.java:169)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">api.PlayerCreateTest#testCreatePlayerWithInvalidPasswordTooLong</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: User should not be created. expected [400] but found [200]
+	at api.PlayerCreateTest.assertCreatePlayerWithValidationError(PlayerCreateTest.java:271)
+	at api.PlayerCreateTest.testCreatePlayerWithInvalidPasswordTooLong(PlayerCreateTest.java:159)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">api.PlayerCreateTest#testCreatePlayerWithInvalidPasswordTooShort</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: User should not be created. expected [400] but found [200]
+	at api.PlayerCreateTest.assertCreatePlayerWithValidationError(PlayerCreateTest.java:271)
+	at api.PlayerCreateTest.testCreatePlayerWithInvalidPasswordTooShort(PlayerCreateTest.java:149)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">api.PlayerCreateTest#testCreatePlayerWithInvalidRole</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Response body is empty; cannot map to ErrorBody
+	at api.client.ResponseWrapper.readError(ResponseWrapper.java:56)
+	at api.PlayerCreateTest.assertCreatePlayerWithValidationError(PlayerCreateTest.java:272)
+	at api.PlayerCreateTest.testCreatePlayerWithInvalidRole(PlayerCreateTest.java:190)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 11 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">api.PlayerCreateTest#testCreatePlayerWithMissingAge</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Response body is empty; cannot map to ErrorBody
+	at api.client.ResponseWrapper.readError(ResponseWrapper.java:56)
+	at api.PlayerCreateTest.assertCreatePlayerWithValidationError(PlayerCreateTest.java:272)
+	at api.PlayerCreateTest.testCreatePlayerWithMissingAge(PlayerCreateTest.java:201)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 11 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">api.PlayerCreateTest#testCreatePlayerWithMissingGender</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Response body is empty; cannot map to ErrorBody
+	at api.client.ResponseWrapper.readError(ResponseWrapper.java:56)
+	at api.PlayerCreateTest.assertCreatePlayerWithValidationError(PlayerCreateTest.java:272)
+	at api.PlayerCreateTest.testCreatePlayerWithMissingGender(PlayerCreateTest.java:210)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 11 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">api.PlayerCreateTest#testCreatePlayerWithMissingLogin</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Response body is empty; cannot map to ErrorBody
+	at api.client.ResponseWrapper.readError(ResponseWrapper.java:56)
+	at api.PlayerCreateTest.assertCreatePlayerWithValidationError(PlayerCreateTest.java:272)
+	at api.PlayerCreateTest.testCreatePlayerWithMissingLogin(PlayerCreateTest.java:219)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 11 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m20">api.PlayerCreateTest#testCreatePlayerWithMissingRole</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Response body is empty; cannot map to ErrorBody
+	at api.client.ResponseWrapper.readError(ResponseWrapper.java:56)
+	at api.PlayerCreateTest.assertCreatePlayerWithValidationError(PlayerCreateTest.java:272)
+	at api.PlayerCreateTest.testCreatePlayerWithMissingRole(PlayerCreateTest.java:228)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 11 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m21">api.PlayerCreateTest#testCreatePlayerWithMissingScreenName</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Response body is empty; cannot map to ErrorBody
+	at api.client.ResponseWrapper.readError(ResponseWrapper.java:56)
+	at api.PlayerCreateTest.assertCreatePlayerWithValidationError(PlayerCreateTest.java:272)
+	at api.PlayerCreateTest.testCreatePlayerWithMissingScreenName(PlayerCreateTest.java:237)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 11 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m22">api.PlayerCreateTest#testCreatePlayerWithNonExistentEditor</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Response body is empty; cannot map to ErrorBody
+	at api.client.ResponseWrapper.readError(ResponseWrapper.java:56)
+	at api.PlayerCreateTest.assertCreatePlayerWithAuthorizationError(PlayerCreateTest.java:282)
+	at api.PlayerCreateTest.testCreatePlayerWithNonExistentEditor(PlayerCreateTest.java:248)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 11 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m23">api.PlayerCreateTest#testCreatePlayerWithValidDataUsingAdmin</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
+	Wrong age expected [53] but found [null],
+	Wrong gender expected [female] but found [null],
+	Wrong password expected [TX2V6JVe084J3b] but found [null],
+	Wrong role expected [user] but found [null],
+	Wrong screen_name expected [04a0c6d8] but found [null]
+	at api.PlayerCreateTest.assertPlayerEquals(PlayerCreateTest.java:296)
+	at api.PlayerCreateTest.testCreatePlayerWithValidDataUsingAdmin(PlayerCreateTest.java:74)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 13 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m24">api.PlayerCreateTest#testCreatePlayerWithValidDataUsingSupervisor</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
+	Wrong age expected [49] but found [null],
+	Wrong gender expected [female] but found [null],
+	Wrong password expected [YWN5mPg2diT3mOc] but found [null],
+	Wrong role expected [user] but found [null],
+	Wrong screen_name expected [987ac94d] but found [null]
+	at api.PlayerCreateTest.assertPlayerEquals(PlayerCreateTest.java:296)
+	at api.PlayerCreateTest.testCreatePlayerWithValidDataUsingSupervisor(PlayerCreateTest.java:61)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 13 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m25">api.PlayerCreateWithAdminEditorNegativeTest#testAdminCannotCreateSupervisor</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Expected HTTP status code 403, but was 400 expected [403] but found [400]
+	at api.client.ResponseWrapper.expectingStatusCode(ResponseWrapper.java:49)
+	at api.PlayerCreateWithAdminEditorNegativeTest.assertCreatePlayerWithAuthorizationError(PlayerCreateWithAdminEditorNegativeTest.java:89)
+	at api.PlayerCreateWithAdminEditorNegativeTest.testAdminCannotCreateSupervisor(PlayerCreateWithAdminEditorNegativeTest.java:62)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m26">api.PlayerCreateWithUserEditorNegativeTest#testCreatePlayerWithUserEditor</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Response body is empty; cannot map to ErrorBody
+	at api.client.ResponseWrapper.readError(ResponseWrapper.java:56)
+	at api.PlayerCreateWithUserEditorNegativeTest.assertCreatePlayerWithAuthorizationError(PlayerCreateWithUserEditorNegativeTest.java:96)
+	at api.PlayerCreateWithUserEditorNegativeTest.testCreatePlayerWithUserEditor(PlayerCreateWithUserEditorNegativeTest.java:62)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 11 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m27">api.PlayerCreateWithUserEditorNegativeTest#testUserCannotAccessAdminOperations</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Response body is empty; cannot map to ErrorBody
+	at api.client.ResponseWrapper.readError(ResponseWrapper.java:56)
+	at api.PlayerCreateWithUserEditorNegativeTest.assertCreatePlayerWithAuthorizationError(PlayerCreateWithUserEditorNegativeTest.java:96)
+	at api.PlayerCreateWithUserEditorNegativeTest.testUserCannotAccessAdminOperations(PlayerCreateWithUserEditorNegativeTest.java:72)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 11 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m28">api.PlayerDeleteTest#testAdminCanDeleteOtherUsers</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Expected status code 404 for not found user. expected [404] but found [200]
+	at api.PlayerDeleteTest.verifyPlayerDeletion(PlayerDeleteTest.java:201)
+	at api.PlayerDeleteTest.testAdminCanDeleteOtherUsers(PlayerDeleteTest.java:161)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m29">api.PlayerDeleteTest#testDeleteAdminByAdmin</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Status code should be 403 when admin tries to delete himself expected [403] but found [204]
+	at api.PlayerDeleteTest.testDeleteAdminByAdmin(PlayerDeleteTest.java:130)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m30">api.PlayerDeleteTest#testDeleteAdminBySupervisor</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Expected status code 404 for not found user. expected [404] but found [200]
+	at api.PlayerDeleteTest.verifyPlayerDeletion(PlayerDeleteTest.java:201)
+	at api.PlayerDeleteTest.testDeleteAdminBySupervisor(PlayerDeleteTest.java:95)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m31">api.PlayerDeleteTest#testDeleteNonExistentPlayer</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Status code should be 404 when deleting non-existent player expected [404] but found [403]
+	at api.PlayerDeleteTest.testDeleteNonExistentPlayer(PlayerDeleteTest.java:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m32">api.PlayerDeleteTest#testDeletePlayerWithAdmin</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Expected status code 404 for not found user. expected [404] but found [200]
+	at api.PlayerDeleteTest.verifyPlayerDeletion(PlayerDeleteTest.java:201)
+	at api.PlayerDeleteTest.testDeletePlayerWithAdmin(PlayerDeleteTest.java:83)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m33">api.PlayerDeleteTest#testDeletePlayerWithBoundaryIds</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Status code should be 404 when deleting player with very large ID expected [400] but found [403]
+	at api.PlayerDeleteTest.testDeletePlayerWithBoundaryIds(PlayerDeleteTest.java:171)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m34">api.PlayerDeleteTest#testDeletePlayerWithNonExistentEditor</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Status code should be 403 when deleting with non-existent editor expected [403] but found [204]
+	at api.PlayerDeleteTest.testDeletePlayerWithNonExistentEditor(PlayerDeleteTest.java:112)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m35">api.PlayerGetTest#testGetPlayerAfterCreation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
+	Age should match expected [47] but found [24],
+	Gender should match expected [female] but found [male],
+	Login should match expected [dana.pfannerstill] but found [gail.wehner],
+	Password should match expected [6591ee1FpI2N8W9] but found [SZi1lC78ywAeMi],
+	ScreenName should match expected [c87c109c] but found [91ad93a9]
+	at api.PlayerGetTest.testGetPlayerAfterCreation(PlayerGetTest.java:108)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 13 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m36">api.PlayerGetTest#testGetPlayerByNonExistentId</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Expected HTTP status code 404, but was 200 expected [404] but found [200]
+	at api.client.ResponseWrapper.expectingStatusCode(ResponseWrapper.java:49)
+	at api.PlayerGetTest.testGetPlayerByNonExistentId(PlayerGetTest.java:76)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m37">api.PlayerGetTest#testGetPlayerWithBoundaryIds</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Expected HTTP status code 400, but was 200 expected [400] but found [200]
+	at api.client.ResponseWrapper.expectingStatusCode(ResponseWrapper.java:49)
+	at api.PlayerGetTest.testGetPlayerWithBoundaryIds(PlayerGetTest.java:129)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m38">api.PlayerGetTest#testGetPlayerWithNullId</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Expected HTTP status code 400, but was 200 expected [400] but found [200]
+	at api.client.ResponseWrapper.expectingStatusCode(ResponseWrapper.java:49)
+	at api.PlayerGetTest.testGetPlayerWithNullId(PlayerGetTest.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m39">api.PlayerUpdateTest#testUpdateMultipleFields</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Expected HTTP status code 200, but was 409 expected [200] but found [409]
+	at api.client.ResponseWrapper.expectingStatusCode(ResponseWrapper.java:49)
+	at api.PlayerUpdateTest.testUpdateMultipleFields(PlayerUpdateTest.java:149)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m40">api.PlayerUpdateTest#testUpdateNonExistentPlayer</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Expected HTTP status code 404, but was 200 expected [404] but found [200]
+	at api.client.ResponseWrapper.expectingStatusCode(ResponseWrapper.java:49)
+	at api.PlayerUpdateTest.assertUpdatePlayerWithAuthorizationError(PlayerUpdateTest.java:311)
+	at api.PlayerUpdateTest.testUpdateNonExistentPlayer(PlayerUpdateTest.java:204)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m41">api.PlayerUpdateTest#testUpdatePlayerAge</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Age should be updated correctly expected [30] but found [47]
+	at api.PlayerUpdateTest.verifyPlayerFieldUpdate(PlayerUpdateTest.java:277)
+	at api.PlayerUpdateTest.testUpdatePlayerAge(PlayerUpdateTest.java:71)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m42">api.PlayerUpdateTest#testUpdatePlayerScreenName</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: ScreenName should be updated correctly expected [bf7ed155] but found [de2d1a83]
+	at api.PlayerUpdateTest.verifyPlayerFieldUpdate(PlayerUpdateTest.java:289)
+	at api.PlayerUpdateTest.testUpdatePlayerScreenName(PlayerUpdateTest.java:119)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m43">api.PlayerUpdateTest#testUpdatePlayerWithInvalidAge</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Expected HTTP status code 403, but was 200 expected [403] but found [200]
+	at api.client.ResponseWrapper.expectingStatusCode(ResponseWrapper.java:49)
+	at api.PlayerUpdateTest.assertUpdatePlayerWithValidationError(PlayerUpdateTest.java:301)
+	at api.PlayerUpdateTest.testUpdatePlayerWithInvalidAge(PlayerUpdateTest.java:172)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m44">api.PlayerUpdateTest#testUpdatePlayerWithInvalidGender</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Expected HTTP status code 400, but was 200 expected [400] but found [200]
+	at api.client.ResponseWrapper.expectingStatusCode(ResponseWrapper.java:49)
+	at api.PlayerUpdateTest.assertUpdatePlayerWithValidationError(PlayerUpdateTest.java:301)
+	at api.PlayerUpdateTest.testUpdatePlayerWithInvalidGender(PlayerUpdateTest.java:182)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m45">api.PlayerUserEditorNegativeTest#testUpdatePlayerWithUserEditor</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Expected HTTP status code 403, but was 200 expected [403] but found [200]
+	at api.client.ResponseWrapper.expectingStatusCode(ResponseWrapper.java:49)
+	at api.PlayerUserEditorNegativeTest.assertUpdatePlayerWithAuthorizationError(PlayerUserEditorNegativeTest.java:107)
+	at api.PlayerUserEditorNegativeTest.testUpdatePlayerWithUserEditor(PlayerUserEditorNegativeTest.java:72)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m46">api.PlayerUserEditorNegativeTest#testUserCannotDeleteOtherUsers</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Status code should be 403 when user tries to delete another user expected [403] but found [204]
+	at api.PlayerUserEditorNegativeTest.testUserCannotDeleteOtherUsers(PlayerUserEditorNegativeTest.java:84)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m47">api.PlayerDeleteTest#setUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m48">api.PlayerDeleteTest#setUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m49">api.PlayerDeleteTest#setUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m50">api.PlayerDeleteTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m51">api.PlayerDeleteTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m52">api.PlayerDeleteTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m53">api.PlayerDeleteTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m54">api.PlayerUpdateTest#setUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m55">api.PlayerUpdateTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m56">api.PlayerUpdateTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m57">api.PlayerUpdateTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m58">api.PlayerUpdateTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m59">api.PlayerDeleteTest#testDeletePlayerWithSupervisor</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Expected HTTP status code 200, but was 400 expected [200] but found [400]
+	at api.client.ResponseWrapper.expectingStatusCode(ResponseWrapper.java:49)
+	at api.PlayerDeleteTest.createAndVerifyPlayer(PlayerDeleteTest.java:185)
+	at api.PlayerDeleteTest.setUp(PlayerDeleteTest.java:38)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 21 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m60">api.PlayerDeleteTest#testDeleteSupervisor</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Expected HTTP status code 200, but was 400 expected [200] but found [400]
+	at api.client.ResponseWrapper.expectingStatusCode(ResponseWrapper.java:49)
+	at api.PlayerDeleteTest.createAndVerifyPlayer(PlayerDeleteTest.java:185)
+	at api.PlayerDeleteTest.setUp(PlayerDeleteTest.java:38)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 21 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m61">api.PlayerDeleteTest#testDeleteUserByUser</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Expected HTTP status code 200, but was 400 expected [200] but found [400]
+	at api.client.ResponseWrapper.expectingStatusCode(ResponseWrapper.java:49)
+	at api.PlayerDeleteTest.createAndVerifyPlayer(PlayerDeleteTest.java:185)
+	at api.PlayerDeleteTest.setUp(PlayerDeleteTest.java:38)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 21 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m62">api.PlayerDeleteTest#testUserCannotDeleteAdmin</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Expected HTTP status code 200, but was 400 expected [200] but found [400]
+	at api.client.ResponseWrapper.expectingStatusCode(ResponseWrapper.java:49)
+	at api.PlayerDeleteTest.createAndVerifyPlayer(PlayerDeleteTest.java:185)
+	at api.PlayerDeleteTest.setUp(PlayerDeleteTest.java:38)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 21 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m63">api.PlayerUpdateTest#testUpdatePlayerWithInvalidPassword</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: User should be created. expected [200] but found [400]
+	at api.PlayerUpdateTest.createAndVerifyPlayer(PlayerUpdateTest.java:258)
+	at api.PlayerUpdateTest.setUp(PlayerUpdateTest.java:37)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 21 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m64">api.PlayerUpdateTest#testUpdatePlayerWithNonExistentEditor</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: User should be created. expected [200] but found [400]
+	at api.PlayerUpdateTest.createAndVerifyPlayer(PlayerUpdateTest.java:258)
+	at api.PlayerUpdateTest.setUp(PlayerUpdateTest.java:37)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 21 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m65">api.PlayerUpdateTest#testUserCanUpdateOwnProfile</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: User should be created. expected [200] but found [400]
+	at api.PlayerUpdateTest.createAndVerifyPlayer(PlayerUpdateTest.java:258)
+	at api.PlayerUpdateTest.setUp(PlayerUpdateTest.java:37)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 21 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m66">api.PlayerControllerTest#testDataConsistencyWorkflow</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m67">api.PlayerCreateTest#testCreatePlayerWithAdminRole</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m68">api.PlayerCreateTest#testCreatePlayerWithUserRole</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m69">api.PlayerGetTest#testGetAllPlayers</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m70">api.PlayerUpdateTest#testUpdatePlayerGender</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m71">api.PlayerUpdateTest#testUpdatePlayerLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m72">api.PlayerUpdateTest#testUpdatePlayerPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m73">api.PlayerUpdateTest#testUpdatePlayerWithAdminEditor</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
